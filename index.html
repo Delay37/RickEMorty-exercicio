@@ -3,8 +3,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rick e Morty</title>
+    <link rel="stylesheet" href="estilo/estilo.css">
+    <script src="scripts/javascript.js"></script>
 </head>
 <body>
-    
+    <header>
+        <h1>Rick and Morty</h1>
+    </header>
+    <main>
+        <div id="tamanho">
+            <input type="number" placeholder="Numero do personagem" id="inputPersonagem">
+            <button type="button" onclick="MostraPersonagem()"><h2>Buscar</h2></button>
+        </div>
+        <div id="divPersonagem">
+            <img id="imagem">
+            <h2 id="texto"></h2>
+        </div>
+    </main>
 </body>
 </html>

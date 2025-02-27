@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    background: gray;
+    border-radius: 20px;
+    text-align: center;
+    width: 30%;
+}
+
+header {
+    height: 75px;
+    color: white;
+    background-color: gray;
+    text-align: center;
+}
+header h1{
+    padding-top: 15px;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: -3%;
+    height: 100%;
+}
+
+#personagem {
+    display: none;
+    width: 300px;
+}
+
+input {
+    width: 70%;
+    text-align: center;
+}
+
+button {
+    width: 30%;
+    margin: auto;
+    height: 30px;
+}
+
+#personagem img {
+    display: block;
+    margin: 0 auto;
+}
+
+#personagem h2 {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+input{
+    height: 50px;
+    display: block;
+    margin: auto;
+    
+}
+#tamanho{
+    background: gray;
+    border-radius: 20px;
+    text-align: center;
+    width: 30%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 3px solid black;
+}
